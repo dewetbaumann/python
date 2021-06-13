@@ -8,8 +8,8 @@ def gradeInput():
     addGrade = 0
     aux = True
     for i in range(6):
-        if disapproved > 1:
-            break
+        if disapproved > 1: break
+        
         else:
             while (aux):
                 try:
@@ -22,11 +22,9 @@ def gradeInput():
                         addGrade += grade            
                         aux = False
 
-                    else:
-                        print('La nota no puede ser menor a 0 y mayor a 10')
+                    else: print('La nota no puede ser menor a 0 y mayor a 10')
 
-                except:
-                    print('Error: La nota sola puede ser un racional entre 0 y 10')
+                except: print('Error: La nota sola puede ser un racional entre 0 y 10')
 
             aux = True
     
@@ -42,8 +40,7 @@ def gradeValidation(addGrade,disapproved):
             try:
                 grade = float(input(f'Ingrese la nota del parcial recuperatorio: '))
                 
-                if grade > 0 and grade < 7:
-                    print('Perdiste la materia por desaprobar 2 parciales')
+                if grade > 0 and grade < 7: print('Perdiste la materia por desaprobar 2 parciales')
                 
                 elif grade > 7 and grade <= 10:
                     average = addGrade/7
@@ -51,11 +48,9 @@ def gradeValidation(addGrade,disapproved):
                     
                 aux = False
 
-            except:
-                print('Error: La nota sola puede ser un racional')
+            except: print('Error: La nota sola puede ser un racional')
         
-    elif disapproved == 2:
-        print('Perdiste la materia por desaprobar 2 parciales')
+    elif disapproved == 2: print('Perdiste la materia por desaprobar 2 parciales')
 
 addGrade,disapproved = gradeInput
 gradeValidation(addGrade,disapproved)

@@ -27,7 +27,7 @@ El cuadrante en el que comienza una recta con respecto al origen se encuentra de
 |:-----------------------:|:-------:|
 |Entre 0 y 90 grados|`I`|
 |Entre 90 y 180 grados|`II`|
-|Entre 180 y 2700 grados|`III`|
+|Entre 180 y 270 grados|`III`|
 |Entre 270 y 360 grados|`IV`|
 
 Ingresar  el  ángulo  de  la  línea, y  proceder  a determinar  y  mostrar  el  cuadrante  correcto  para  el  dato proporcionado. (Nota: Si el ángulo es exactamente 0, 90, 180, o 270 grados, la línea correspondiente no reside en ningún cuadrante, pero se encuentra en uneje, por lo tanto debe mostrar esta situación)
