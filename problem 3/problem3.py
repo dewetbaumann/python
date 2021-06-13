@@ -1,7 +1,6 @@
 from os import system as console
+console('color 0b && cls')
 
-console('cls')
-console('color 0b')
 
 def gradeInput():
     disapproved = 0

@@ -1,6 +1,6 @@
 from os import system as console
-console('color 0b')
-console('cls')
+console('color 0b && cls')
+
 
 def weightValidation():
     while (True):

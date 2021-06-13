@@ -45,12 +45,10 @@ Si  estuvieras  parado  en  la  luna  en  este  momento,  tu peso  sería  16.5%
 ---
 
 #### Problema 8: 
-Dada una serie de números, cuyo final viene dado por el ingreso delcero, que representan los precios delas diferentes variedadesde café que ofrece una cafetería, mostrar
+Dada una serie de números, cuyo final viene dado por el ingreso del cero, que representan los precios de las diferentes variedadesde café que ofrece una cafetería, mostrar
 
 + El mayor y menor precio.
-
 + El precio promedio.
-
 + Si existe alguna variedad de cafe que tiene un costo superior a los $1000.
 
 ---

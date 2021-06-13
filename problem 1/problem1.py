@@ -1,8 +1,7 @@
 from os import system as console
 from numpy import sqrt as raiz
+console('color 0b && cls')
 
-console('color 0b')
-console('cls')
 
 def inputData():
     try:

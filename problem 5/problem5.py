@@ -1,6 +1,6 @@
 from os import system as console
-console('cls')
-console('color 0b')
+console('color 0b && cls')
+
 
 def degreeValidation():
     try: 
