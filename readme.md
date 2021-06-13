@@ -11,7 +11,7 @@ La cordialidad ante todo.Se desea saludar al usuario dada una hora determinada d
 ---
 
 #### Problema 3: 
-María sabe que para aprobar una materia debe sacar 6 ó más en cada una de las 6 evaluaciones. Tambiénsabe que solo puede desaprobar una sola evaluación y en ese caso, debe aprobar la evaluación integral con una nota mayor a 7. Diseñe un algoritmo que ayude a María a saber si aprobó o no la materia.
+María sabe que para aprobar una materia debe sacar 6 ó más en cada una de las 6 evaluaciones. También sabe que solo puede desaprobar una sola evaluación y en ese caso, debe aprobar la evaluación integral con una nota mayor a 7. Diseñe un algoritmo que ayude a María a saber si aprobó o no la materia.
 
 ---
 
